@@ -1,0 +1,108 @@
+
+.dropdownbkcolor{
+    background-color: #e7eaf0;
+}
+.bacgrcolor{
+    background-color: #f1faee !important;
+}
+ 
+ .hcolors{
+     color: #1d3557;
+ }
+ 
+ .fixed-tops {
+    position: sticky !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1030 !important;
+    background-color: #fff !important;
+    color: #1d3557 !important;
+
+}
+
+.sizes{
+    font-size: 17px;
+}
+
+.sizes:hover{
+    box-shadow: 0 .5rem 1.5rem .5rem rgba(0,0,0,.075)!important;
+}
+
+.ty .tx{
+    width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+    .ty {width: 71%;
+    margin: 0 auto; }
+  }
+
+  .gobutton {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 50%;
+  }
+
+ .gobutton:hover{
+    box-shadow: 0 .5rem 1.5rem .5rem rgba(0,0,0,.075)!important;
+    text-decoration: solid;
+    color: rgb(181, 226, 222);
+    border-bottom:2px solid #e7eaf0;
+ }
+
+ .cont{
+     width: 100%;
+     text-align: center;
+     margin: 4px auto;
+ }
+
+ .paddings{
+     padding: 0 auto;
+ }
+
+
+ .cad .cadhead {
+    min-height: 40px !important; 
+    max-height: 50px !important;
+    padding: 0rem 1rem !important;
+   
+}
+
+.cad .cadbody, .cad .cad-footer {
+    padding: 0 1rem;
+    
+}
+
+.my-7s {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+}
+
+.mo{
+    padding: 21%;
+}
+
+.cad{
+    word-wrap: break-word!important;
+    background-clip: border-box!important;
+    background-color: #fff!important;
+    border: 0 solid #eceef3!important;
+    border-radius: 0.75rem !important;
+    box-shadow: 0 3px 3px -1px rgb(10 22 70 / 10%), 0 0 1px 0 rgb(10 22 70 / 6%)!important;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+}
+
+.cadmorenfo {
+    background-color: #fff!important;
+
+}
